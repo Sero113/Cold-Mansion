@@ -1,0 +1,269 @@
+body {
+background-color: black
+}
+
+/* Top search bar*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 153px;
+    height: 33px;
+  }
+  .login {
+    display: block;
+    position: absolute;
+    padding: 0px;
+    top: 20px;
+    left: 1050px;
+    width: 90px;
+    height: 22px;
+  }
+  .cart {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 1090px;
+    width: 153px;
+    height: 33px;
+  }
+  li a {
+ font-family: "copperplate", sans-serif;
+font-weight: 300;
+font-size: 20px;
+color: black;
+text-decoration: none;
+}
+nav ul {
+  /*Navigaton bar css*/
+display: flex;
+background-color: #D9D9D9;
+justify-content: space-evenly;
+list-style-type: none;
+border: 0px;
+padding: 0px;
+margin: 0px;
+height: 30px;}
+  a:link,
+  a:visited,
+  a:active,
+  a:hover {
+      color: rgb(0, 0, 0);}
+      /*footer*/
+   
+  .container{
+  max-width: 1170px;
+margin:auto}
+.row{
+display: flex;
+flex-wrap: wrap;}
+ul {
+list-style: none;
+color: white;}
+      footer{
+      background-color: black;
+      padding: 70px 0;
+      }
+      footer-col{
+      width: 25%;
+      padding: 0 15px;}
+      footer-col{
+      font-size: 18px;
+    color: white;
+  text-transform: capitalize;
+margin: 30px}
+.container {
+  max-width: 1170px;
+margin:auto}
+.row{
+display: flex;
+flex-wrap: wrap;}
+.footer-col ul li a{
+  font-family: "copperplate", sans-serif;
+  color: white;}
+.footer-col {
+  font-family: "copperplate", sans-serif;
+  color: white;}
+  
+  /*watches*/
+  h3{
+  color: white;
+text-decoration: none;
+text-align: center;}
+.price{
+color: white;
+text-align: center;}
+  .container-v1{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-v1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.container-v2{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-v2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.container-v3{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-v3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.container-v4{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-v4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+/*Jewelry*/
+.container-j1{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-j1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.container-j2{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-j2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.container-j3{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-j3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.container-j4{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-j4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+/*streetwear*/
+.container-s1{
+  margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+.container-s1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  height: 300px;
+  width: 400px;
+}
+/* Contact Form */
+#name {
+  font-family: cursive;}
+  input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid lightblue; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 10px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: turquoise;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      margin-left: 230px;
+      cursor: pointer;
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+      background-color: lightblue;
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container-cont {
+      border-radius: 5px;
+      background-color: rgba#D9D9D9;
+      padding: 10px;
+      margin: 300px 300px;
+      margin-top: auto;
+    }
+
+
+   
+        
+      
+
+
